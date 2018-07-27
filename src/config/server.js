@@ -14,4 +14,4 @@ server.listen(port, () => {
    console.log('BACKEND listening at port ' + port)
 })
 
-
+module.exports = server
