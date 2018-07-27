@@ -2,7 +2,7 @@
   "name": "1-backend_form_react_redux_course",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/loader.js",
   "scripts": {
     "dev" : "nodemon",
     "prod" : "pm2 start src/loader.js --name todo-app" 
