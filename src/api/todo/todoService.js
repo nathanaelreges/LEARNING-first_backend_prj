@@ -8,7 +8,7 @@ Todo.route('res', function(req, res, next) {
    console.log(req.body)
    res.send('I have a recommendation for you!');
 });
-
+/*
 Todo.before('delete', (req, res, next) => {
    if(req.body.pass === '123') {
       next()
@@ -20,5 +20,5 @@ Todo.before('delete', (req, res, next) => {
 })
 
 
-
+*/
 module.exports = Todo
